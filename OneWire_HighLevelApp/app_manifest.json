@@ -1,0 +1,12 @@
+{
+  "SchemaVersion": 1,
+  "Name": "UART_HighLevelApp",
+  "ComponentId": "44874bf1-45e3-528a-6538-6bf6bfc16c00",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "Gpio": [ "$SAMPLE_NRF52_RESET", "$SAMPLE_RGBLED_RED", "$SAMPLE_RGBLED_GREEN", "$SAMPLE_RGBLED_BLUE" ],
+    "Uart": [ "$SAMPLE_NRF52_UART" ]
+  },
+  "ApplicationType": "Default"
+}
